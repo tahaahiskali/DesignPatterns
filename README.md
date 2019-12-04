@@ -23,8 +23,8 @@ http://www.injavawetrust.com/design-patterns/ ( this site was utilized )
 
      Singleton/
             Header Files/
-                EagerInitialization.h    ( Object is create on class loading time )
-                LazyInitialization.h     ( Object is create when the first request.This method isn't Thread Safe! Look DoubleCheckLocking)
+                EagerInitialization.h    ( Object is created on class loading time )
+                LazyInitialization.h     ( Object is created when the first request.This method isn't Thread Safe! Look DoubleCheckLocking)
             Resource Files/
                 EagerInitialization.cpp  ( Implementation EagerInitialization.h )
                 LazyInitialization.cpp   ( Implementation LazyInitialization.h )
