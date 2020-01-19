@@ -13,4 +13,4 @@ class ReadheadDuck {
 
 };
 
-#endif//READHEAD_DUCK_H
+#endif //READHEAD_DUCK_H
