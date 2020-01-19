@@ -3,7 +3,7 @@
 
 #include "Duck.hpp"
 
-class ReadheadDuck {
+class ReadheadDuck : public Duck {
 
     public:
 
