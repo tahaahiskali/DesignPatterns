@@ -1,5 +1,5 @@
-#ifndef DUCK_H
-#define DUCK_H
+#ifndef MALLARD_DUCK_H
+#define MALLARD_DUCK_H
 
 #include "Duck.hpp"
 
@@ -13,4 +13,4 @@ class MallardDuck {
 
 };
 
-#endif //DUCK_H
+#endif //MALLARD_DUCK_H
