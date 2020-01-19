@@ -1,6 +1,5 @@
 #ifndef DUCK_H
 #define DUCK_H
-
 class Duck {
 
     public:
@@ -8,8 +7,8 @@ class Duck {
         Duck();
 
         void quack();
-        void fly();
-
+        void swim();
+        void display();
 
 };
 
