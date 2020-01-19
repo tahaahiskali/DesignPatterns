@@ -1,17 +1,15 @@
 #include "MallardDuck.hpp"
 #include "ReadheadDuck.hpp"
 
-#include <iostream>
-
 int main()
 {
     Duck *mallardDuck = new MallardDuck();
 
-    std::cout << mallardDuck->display() << std::endl;
+    mallardDuck->display();
 
     Duck *readheadDuck = new ReadheadDuck();
 
-    std::cout << readheadDuck->display() << std::endl;
+    readheadDuck->display();
 
     return 0;
 }
