@@ -1,5 +1,6 @@
 #ifndef DUCK_H
 #define DUCK_H
+
 class Duck {
 
     public:
