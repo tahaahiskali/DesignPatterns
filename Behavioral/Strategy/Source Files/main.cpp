@@ -11,7 +11,7 @@ int main()
 
     Duck *readheadDuck = new ReadheadDuck();
 
-    std::cout << mallardDuck->display() << std::endl;
+    std::cout << readheadDuck->display() << std::endl;
 
     return 0;
 }
