@@ -1,4 +1,4 @@
-#include "../Header_Files/CurrentConditionDisplay.hpp"
+#include "CurrentConditionDisplay.hpp"
 #include <iostream>
 
 void CurrentConditionDisplay::update( float temperature, float humidity, float pressure )

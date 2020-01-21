@@ -1,4 +1,4 @@
-#include "../Header_Files/StatisticsDisplay.hpp"
+#include "StatisticsDisplay.hpp"
 
 #include <iostream>
 

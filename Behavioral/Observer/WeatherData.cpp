@@ -1,4 +1,4 @@
-#include "../Header_Files/WeatherData.hpp"
+#include "WeatherData.hpp"
 
 #include <time.h>       // time
 #include <cstdlib>      // rand, srand

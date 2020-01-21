@@ -1,7 +1,7 @@
-#include "../Header_Files/WeatherData.hpp"
-#include "../Header_Files/CurrentConditionDisplay.hpp"
-#include "../Header_Files/StatisticsDisplay.hpp"
-#include "../Header_Files/ForecastDisplay.hpp"
+#include "WeatherData.hpp"
+#include "CurrentConditionDisplay.hpp"
+#include "StatisticsDisplay.hpp"
+#include "ForecastDisplay.hpp"
 
 int main()
 {
