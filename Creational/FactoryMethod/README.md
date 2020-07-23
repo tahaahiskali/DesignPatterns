@@ -2,4 +2,4 @@
 
 
 
-![alt text](https://github.com/tahaahiskali/DesignPatterns/Creational/FactoryMethod/factoryMethod.png?raw=true)
+![alt text](https://github.com/tahaahiskali/DesignPatterns/blob/master/Creational/FactoryMethod/factoryMethod.png?raw=true)
