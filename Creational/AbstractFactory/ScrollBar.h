@@ -6,6 +6,8 @@ class ScrollBar
 {
 public:
     ScrollBar();
+
+    virtual void setMax( int max );
 };
 
 #endif // SCROLLBAR_H
