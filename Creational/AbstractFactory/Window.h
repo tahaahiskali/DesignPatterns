@@ -6,6 +6,7 @@ class Window
 {
 public:
     Window();
+    virtual void repaint();
 };
 
 #endif // WINDOW_H
