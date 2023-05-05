@@ -1,9 +1,9 @@
-#include "Window.h"
+// #include "Window.h"
 
-Window::Window()
-{
-}
+// Window::Window()
+// {
+// }
 
-void Window::repaint()
-{
-}
+// void Window::repaint()
+// {
+// }

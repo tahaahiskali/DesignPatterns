@@ -7,8 +7,8 @@ class PMWidgetFactory : public IWidgetFactory
 {
 public:
     PMWidgetFactory();
-    virtual ScrollBar* createScrollBar();
-    virtual Window* createWindow();
+    virtual IScrollBar* createScrollBar();
+    virtual IWindow* createWindow();
 };
 
 #endif // PMWIDGETFACTORY_H

@@ -7,8 +7,8 @@ class MotifWidgetFactory : public IWidgetFactory
 {
 public:
     MotifWidgetFactory();
-    virtual ScrollBar* createScrollBar();
-    virtual Window* createWindow();
+    virtual IScrollBar* createScrollBar();
+    virtual IWindow* createWindow();
 };
 
 #endif // MOTIFWIDGETFACTORY_H

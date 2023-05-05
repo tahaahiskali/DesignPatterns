@@ -1,9 +1,9 @@
 #ifndef MOTIFWINDOW_H
 #define MOTIFWINDOW_H
 
-#include "Window.h"
+#include "IWindow.h"
 
-class MotifWindow : public Window
+class MotifWindow : public IWindow
 {
 public:
     MotifWindow();

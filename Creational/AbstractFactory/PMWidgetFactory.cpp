@@ -6,10 +6,10 @@ PMWidgetFactory::PMWidgetFactory()
 {
 }
 
-ScrollBar* PMWidgetFactory::createScrollBar() {
+IScrollBar* PMWidgetFactory::createScrollBar() {
     return new PMScrollBar();
 }
 
-Window* PMWidgetFactory::createWindow() {
+IWindow* PMWidgetFactory::createWindow() {
     return new PMWindow();
 }

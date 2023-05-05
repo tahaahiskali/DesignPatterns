@@ -1,9 +1,9 @@
 #ifndef MOTIFSCROLLBAR_H
 #define MOTIFSCROLLBAR_H
 
-#include "ScrollBar.h"
+#include "IScrollBar.h"
 
-class MotifScrollBar : public ScrollBar
+class MotifScrollBar : public IScrollBar
 {
 public:
     MotifScrollBar();

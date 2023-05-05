@@ -1,11 +1,11 @@
-#include "ScrollBar.h"
+// #include "ScrollBar.h"
 
-ScrollBar::ScrollBar()
-{
+// ScrollBar::ScrollBar()
+// {
 
-}
+// }
 
-void ScrollBar::setMax(int max)
-{
-    (void) max;
-}
+// void ScrollBar::setMax(int max)
+// {
+//     (void) max;
+// }

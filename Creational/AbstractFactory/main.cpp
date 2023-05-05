@@ -6,14 +6,13 @@
 
 int main() {
 
-    IWidgetFactory *motifFactory = new MotifWidgetFactory();
-    IWidgetFactory *pmWidgetFactory = new PMWidgetFactory();
+    IWidgetFactory *motifWidgetFactory = new MotifWidgetFactory();
+    IScrollBar *motifScrollBar = motifWidgetFactory->createScrollBar();
+    IWindow *motifWindow = motifWidgetFactory->createWindow();
 
-    ScrollBar *motifScrollBar = motifFactory->createScrollBar();
-    Window *motifWindow = motifFactory->createWindow();
-		
-    ScrollBar *pmScrollBar = pmWidgetFactory->createScrollBar();
-    Window *pmWindow = pmWidgetFactory->createWindow();
+    IWidgetFactory *pmWidgetFactory = new PMWidgetFactory();
+    IScrollBar *pmScrollBar = pmWidgetFactory->createScrollBar();
+    IWindow *pmWindow = pmWidgetFactory->createWindow();
     
     pmScrollBar->setMax(20);
     pmWindow->repaint();
