@@ -2,11 +2,11 @@
 #define WINDOW_H
 
 
-class Window
+class IWindow
 {
 public:
-    Window();
-    virtual void repaint();
+    
+    virtual void repaint() = 0;
 };
 
 #endif // WINDOW_H

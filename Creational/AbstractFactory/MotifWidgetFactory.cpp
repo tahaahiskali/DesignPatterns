@@ -7,10 +7,10 @@ MotifWidgetFactory::MotifWidgetFactory()
 
 }
 
-ScrollBar* MotifWidgetFactory::createScrollBar() {
+IScrollBar* MotifWidgetFactory::createScrollBar() {
     return new MotifScrollBar();
 }
 
-Window* MotifWidgetFactory::createWindow() {
+IWindow* MotifWidgetFactory::createWindow() {
     return new MotifWindow();
 }

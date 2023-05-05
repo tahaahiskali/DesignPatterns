@@ -1,14 +1,14 @@
 #ifndef IWIDGETFACTORY_H
 #define IWIDGETFACTORY_H
 
-#include "ScrollBar.h"
-#include "Window.h"
+#include "IScrollBar.h"
+#include "IWindow.h"
 
 class IWidgetFactory {
     public:
 
-        virtual ScrollBar* createScrollBar() = 0;
-        virtual Window* createWindow() = 0;
+        virtual IScrollBar* createScrollBar() = 0;
+        virtual IWindow* createWindow() = 0;
     
 };
 

@@ -1,9 +1,9 @@
 #ifndef PMSCROLLBAR_H
 #define PMSCROLLBAR_H
 
-#include "ScrollBar.h"
+#include "IScrollBar.h"
 
-class PMScrollBar : public ScrollBar
+class PMScrollBar : public IScrollBar
 {
 public:
     PMScrollBar();

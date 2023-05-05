@@ -2,12 +2,10 @@
 #define SCROLLBAR_H
 
 
-class ScrollBar
+class IScrollBar
 {
 public:
-    ScrollBar();
-
-    virtual void setMax( int max );
+    virtual void setMax( int max ) = 0;
 };
 
 #endif // SCROLLBAR_H

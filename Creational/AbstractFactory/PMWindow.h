@@ -1,9 +1,9 @@
 #ifndef PMWINDOW_H
 #define PMWINDOW_H
 
-#include "Window.h"
+#include "IWindow.h"
 
-class PMWindow : public Window 
+class PMWindow : public IWindow 
 {
 public:
     PMWindow();
