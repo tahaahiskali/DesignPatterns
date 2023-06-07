@@ -23,8 +23,8 @@ using namespace std;
  */
 int main() {
 
-    EagerInitialization *testEagerIntance1 = EagerInitialization::getIntance();
-    EagerInitialization *testEagerIntance2 = EagerInitialization::getIntance();
+    EagerInitialization *testEagerIntance1 = EagerInitialization::getInstance();
+    EagerInitialization *testEagerIntance2 = EagerInitialization::getInstance();
     
     cout << "testEagerIntance1 adress : " << testEagerIntance1 << endl 
          << "testEagerIntance2 adress : " << testEagerIntance2 << endl << endl;

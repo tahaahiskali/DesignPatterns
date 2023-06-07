@@ -16,8 +16,9 @@
 
 class EagerInitialization{
 public:
-    static EagerInitialization * getIntance();
+    static EagerInitialization * getInstance();
 private:
+    static EagerInitialization *instance;
     EagerInitialization();
 };
 

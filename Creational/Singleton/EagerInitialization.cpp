@@ -7,11 +7,13 @@
 
 #include "EagerInitialization.h"
 
+
+EagerInitialization * EagerInitialization::instance = new EagerInitialization();
+
 EagerInitialization::EagerInitialization() 
 {
 }
 
-EagerInitialization * EagerInitialization::getIntance() {
-    static EagerInitialization instance;
-    return &instance;
+EagerInitialization * EagerInitialization::getInstance() {
+    return instance;
 }

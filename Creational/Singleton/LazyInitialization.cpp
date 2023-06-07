@@ -13,15 +13,11 @@ LazyInitialization::LazyInitialization()
 }
 
 LazyInitialization * LazyInitialization::getInstance() {
-    if ( instance == nullptr ) // Not Thread Safe !
-        {
-            instance = new LazyInitialization();
-            return instance;
-        }
-        
-    else    return instance;
+    if ( instance == nullptr ) { // Not Thread Safe !
+        instance = new LazyInitialization();
+        return instance;
+    } else {
+        return instance;
+    }
 }
-
- 
-
 
